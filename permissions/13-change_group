@@ -1,2 +1,2 @@
 #!/bin/bash
-touch hello && groupadd school &&
+touch hello groupadd school

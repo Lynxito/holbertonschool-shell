@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ "$(stat -c %U hello)" = "Guillaume" ]
+if [ "$(stat -c %U hello)" = "Guillaume" ]; then chown vincent hello; fi
